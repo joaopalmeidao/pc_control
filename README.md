@@ -31,10 +31,6 @@ PC Control is a web application that allows you to control the brightness and vo
         ```sh
         venv\Scripts\activate
         ```
-    - On macOS/Linux:
-        ```sh
-        source venv/bin/activate
-        ```
 4. Install the required packages:
     ```sh
     pip install -r requirements.txt
