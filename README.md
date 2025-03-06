@@ -18,7 +18,7 @@ git clone https://github.com/joaopalmeidao/pc_control.git
 1. Navegue até o diretório do projeto:
 
 ```sh
-cd pc_control
+cd pc_control/frontend
 ```
 
 1. Instale as dependências:
