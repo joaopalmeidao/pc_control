@@ -1,46 +1,78 @@
 # PC Control
 
-PC Control é uma aplicação que permite controlar remotamente seu computador através de comandos simples.
+PC Control is a web application that allows you to control the brightness and volume of your PC remotely using a web interface.
 
-## Funcionalidades
+## Features
 
-- Controle de brilho
-- Controle de volume
+- Adjust screen brightness
+- Adjust system volume
+- Swagger UI for API documentation
 
-## Instalação
+## Technologies Used
 
-1. Clone o repositório:
+- Frontend: React, TypeScript, Material-UI
+- Backend: Flask, Python
+- API Documentation: Swagger UI
 
-```sh
-git clone https://github.com/joaopalmeidao/pc_control.git
-```
+## Installation
 
-1. Navegue até o diretório do projeto:
+### Backend
 
-```sh
-cd pc_control/frontend
-```
+1. Navigate to the backend directory:
+    ```sh
+    cd /E:/Programacao/pc_control/backend
+    ```
+2. Create a virtual environment:
+    ```sh
+    python -m venv venv
+    ```
+3. Activate the virtual environment:
+    - On Windows:
+        ```sh
+        venv\Scripts\activate
+        ```
+    - On macOS/Linux:
+        ```sh
+        source venv/bin/activate
+        ```
+4. Install the required packages:
+    ```sh
+    pip install -r requirements.txt
+    ```
+5. Run the backend server:
+    ```sh
+    python server.py
+    ```
 
-1. Instale as dependências:
+### Frontend
 
-```sh
-npm install
-```
+1. Navigate to the frontend directory:
+    ```sh
+    cd /E:/Programacao/pc_control/frontend
+    ```
+2. Install the required packages:
+    ```sh
+    npm install
+    ```
+3. Run the frontend application:
+    ```sh
+    npm run dev
+    ```
 
-## Uso
+## Usage
 
-1. Inicie a aplicação:
+1. Ensure both the backend server and frontend application are running.
+2. Open your web browser and navigate to `http://localhost:3000`.
+3. Use the sliders to adjust the brightness and volume of your PC.
 
-```sh
-npm start
-```
+## API Documentation
 
-1. Acesse a interface web através do navegador:
+The API documentation is available at `http://localhost:5000/api/docs`.
 
-```sh
-http://localhost:3000
-```
+## Contributing
 
-## Licença
+Contributions are welcome! Please open an issue or submit a pull request for any changes.
 
-Este projeto está licenciado sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+## License
+
+This project is licensed under the MIT License.
